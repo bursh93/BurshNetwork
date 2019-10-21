@@ -1,0 +1,32 @@
+//левое меню navLinks
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  background: #5d8aff;
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+.nav-link {
+  i{
+    margin-right: 5px;
+  }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+

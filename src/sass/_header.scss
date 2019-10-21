@@ -1,0 +1,61 @@
+//ШАПКА САЙТА
+
+
+
+
+//search button
+.btn-outline-success{
+  background: white;
+}
+
+.header {
+  background: #5d8aff;
+  transform: translateY(-10%);
+  transition: .3s;
+
+  &:hover{
+    transform: translateY(0);
+  }
+
+
+  .WrapperFlexHeader {
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .header-left {
+      display: flex;
+
+      .navbar-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: transparent;
+        border-left: 1px solid rgba(#5d8aff, 0.2);
+        border-right: 1px solid rgba(#5d8aff, 0.2);
+        width: 50px;
+        height: 100%;
+        z-index: 3;
+        margin-right: 40px;
+        &:hover {
+          background: #dadada;
+        }
+
+        span {
+          display: block;
+          width: 20px;
+          height: 3px;
+          background-color: black;
+          margin: 3px 0;
+        }
+      }
+
+    }
+  }
+
+}
+

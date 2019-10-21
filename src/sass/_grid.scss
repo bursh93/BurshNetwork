@@ -1,0 +1,32 @@
+//для адаптива
+
+
+$scream-sm:576px;
+$scream-md:768px;
+$scream-lg:992px;
+$scream-xl:1200px;
+
+//adaptive
+@media screen {
+
+}
+
+
+//Контейнер
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 1050px;
+  margin:  auto;
+  margin-bottom: 20px;
+}
+
+
+
+// ROUTE Левое меню и компоненты
+.WrapperGridRoute{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 20px;
+
+}
