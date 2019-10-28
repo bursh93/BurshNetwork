@@ -1,0 +1,19 @@
+
+
+.ProfileWrapperGrid{
+
+  display: flex;
+  padding-right: 12px;
+
+
+  .left-block{
+    background: red;
+    width: 50%;
+    margin-right: 20px;
+  }
+
+  .right-block {
+    background: #5d8aff;
+    width: 100%;
+  }
+}

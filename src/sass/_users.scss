@@ -1,0 +1,59 @@
+
+
+.users {
+  padding: 5px 10px;
+
+
+
+.NumberPage{
+  cursor: pointer;
+  margin-right: 3px;
+  button {
+    background: #474747;
+    color: white;
+    width: 42px;
+    height: 45px;
+    margin: 1px;
+    border: none;
+  }
+  .selectPage{
+    background: orange;
+    color: black;
+    font-weight: 900;
+   padding: 3px;
+
+  }
+}
+//Объект User
+.objectUser {
+
+  hr {
+    width: 430%;
+    background: royalblue;
+  }
+  display: grid;
+  grid-template-columns:1fr 2.5fr  1fr;
+  justify-content: space-between;
+  align-items: center;
+
+  .userPhoto{
+    height: 140px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+  }
+  .nameUsers {
+    color: #4e69ce;
+    font-weight: 900;
+  }
+  .status-users{
+    color: black;
+    font-weight: bold;
+    margin: 2px;
+  }
+
+}
+//Объект User
+}

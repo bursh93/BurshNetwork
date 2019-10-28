@@ -6,6 +6,7 @@ import {Header} from "./Components/Header/Header";
 import {Message} from "./Components/Message/Message";
 import {Users} from "./Components/Users/Users";
 import {Fotos} from "./Components/Foto/Foto";
+import UsersContainer from "./Components/Users/UsersContainer";
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
                     <Navbar/>
                 <Route path='/profile' render={()=><Profile/>}/>
                 <Route path='/message' render={()=><Message/>}/>
-                <Route path='/users' render={()=><Users/>}/>
+                <Route path='/users' render={()=><UsersContainer/>}/>
                 <Route path='/fotos' render={()=><Fotos/>}/>
                 </div>
             </div>

@@ -1,4 +1,6 @@
 import React from "react"
+import {Slide} from "react-slideshow-image"
+
 
 
 
@@ -6,9 +8,35 @@ import React from "react"
 
 export const Message=()=>{
 
-    return (<div className="message">
-            message
+const proprietes={
+        duration: 6000,
+    transitionDuration:500,
+    infinite:true,
+    indicators:true,
+    arrows:true,
+}
 
-    </div>)
 
+    return (
+        <div className="SlideWrapper">
+<Slide  {...proprietes}>
+
+
+    <div className="slide1">
+        <h5>slide1</h5>
+    </div>
+    <div className="slide1">
+        <h5>slide2</h5>
+    </div>
+
+    <div className="slide1">
+        <h5>
+            slide3
+        </h5>
+    </div>
+
+
+</Slide>
+       </div>
+    );
 }
